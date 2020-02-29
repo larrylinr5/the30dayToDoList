@@ -58,4 +58,11 @@ export class Todo {
   setTitle(title: string): void {
     this.title = title;
   }
+
+  /**
+   * 設定是否完成
+   */
+  setCompleted(completed: boolean): void {
+    this.completed = completed;
+  }
 }
